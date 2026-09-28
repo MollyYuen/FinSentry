@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1",
+  "case_id": "datang_2025_demo",
+  "data_status": "SAMPLE_UNVERIFIED",
+  "results": [
+    {
+      "rule_id": "R1",
+      "status": "REVIEW",
+      "calculation": {
+        "revenue_yoy": -0.018,
+        "net_profit_yoy": 0.6391,
+        "difference_pp": 65.71
+      },
+      "reason": "营业收入下降而归母净利润增长，且增速差异达到暂定阈值，需核验利润改善来源",
+      "source_pages": [106, 107],
+      "source_verified": false
+    },
+    {
+      "rule_id": "R2",
+      "status": "PASS",
+      "calculation": {
+        "net_profit_yoy": 0.6391,
+        "operating_cashflow_yoy": 0.4484,
+        "difference_pp": 19.08
+      },
+      "reason": "未达到本规则的 MVP 暂定触发条件",
+      "source_pages": [107, 109],
+      "source_verified": false
+    },
+    {
+      "rule_id": "R3",
+      "status": "PASS",
+      "calculation": {
+        "net_profit_yoy": 0.6391,
+        "adjusted_net_profit_yoy": 0.7434,
+        "difference_pp": 10.43
+      },
+      "reason": "未达到本规则的 MVP 暂定触发条件",
+      "source_pages": [6, 107],
+      "source_verified": false
+    }
+  ]
+}

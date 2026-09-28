@@ -1,0 +1,1 @@
+"""FinSentry offline demonstration modules."""
