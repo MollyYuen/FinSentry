@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/raw/*
+data/processed/*
+outputs/*
+storage/
+chroma_db/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/.gitkeep
